@@ -1,0 +1,42 @@
+.usersContainer{
+    background-color: #f7f7f7;
+    padding-top: 30px;
+    display: none;
+}
+
+.usersContainer .row{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.memberAddedContainer{
+    padding: 20px 0;
+    padding-right: 20px;
+}
+
+.myMembers{
+    margin: 30px 0;
+    min-height: 200px;
+    max-height: 400px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding: 5px;
+    position: relative;
+}
+.boxIcon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.boxIcon svg{
+    color: #ededed;
+    font-size: 100px;
+}
+
+.singleMember{
+    margin-bottom: 20px !important;
+}
+.singleMember img{
+    border-radius: 50%;
+}

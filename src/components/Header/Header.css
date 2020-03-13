@@ -1,0 +1,43 @@
+header{
+    background-color: #fff;
+    padding: 5px 0;
+    display: none !important;
+}
+
+header .aboutMe > *{
+    margin: 0 5px;
+}
+
+.logo{
+    height: 60px;
+}
+
+.myPicture{
+    width: 40px;
+    border-radius: 50%;
+}
+
+.message, .notification{
+    position: relative;
+}
+.message::after, .notification::after{
+    content: "0";
+    position: absolute;
+    background-color: #62CBC4;
+    color: #fff;
+    top: -8px;
+    right: -8px;
+    font-size: 14px;
+    line-height: 14px;
+    width: 24px;
+    height: 24px;
+    padding: 5px;
+    border-radius: 50%;
+    text-align: center;
+}
+.message::after{
+    content: "22";
+}
+.notification::after{
+    content: "26";
+}

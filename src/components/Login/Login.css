@@ -1,0 +1,16 @@
+.loginPage{
+    height: 100vh;
+}
+
+.loginForm{
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 50px 30px;
+    border: 1px solid #62CBC4;
+    border-radius: 5px;
+}
+
+.loginForm input{
+    margin-bottom: 20px;
+}

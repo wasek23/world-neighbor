@@ -1,0 +1,26 @@
+.user{
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+.user img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.userDetains{
+    border: 1px solid #62CBC4;
+    border-radius: 5px;
+    padding: 20px 5px;
+}
+
+.userInformation p{
+    font-weight: 600;
+}
+.userInformation .btn{
+    padding: 5px 25px;
+}
+
+#removeMember{
+    display: none;
+}
